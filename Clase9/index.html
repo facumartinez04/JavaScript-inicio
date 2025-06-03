@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boletín Diputados 2025</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="boletin">
+        <header>
+            <span><strong>DIPUTADOS ARGENTINA</strong></span>
+            <span><u>19/05/2025</u></span>
+        </header>
+
+        <article class="articulo">
+            <h1>Diputados 2025</h1>
+            <h3><em>Boletín oficial de la Cámara de Diputados</em></h3>
+            <img width="70%" src="imgs/diputados.webp" alt="Diputados en sesión">
+
+            <div class="titulares">
+                <article class="titular">
+                    <h2><strong>Reforma Electoral</strong></h2>
+                    <p><u>Voto electrónico en debate</u></p>
+                    <p>La Cámara analiza la implementación del voto electrónico en todo el país. <em>El proyecto fue impulsado por la diputada Carla Carrizo</em> y cuenta con amplio respaldo en bloques opositores.</p>
+                    <a href="https://www.argentina.gob.ar/sites/default/files/reformas_electorales.pdf" target="_blank">Ver más</a>
+                </article>
+                <hr>
+                <article class="titular">
+                    <h2><strong>Salud Pública</strong></h2>
+                    <p><u>Incremento en el presupuesto sanitario</u></p>
+                    <p>Diputados aprobó un aumento del 25% para hospitales públicos. <strong>El presidente de la Comisión de Salud</strong> destacó la necesidad de reforzar el sistema en el interior del país.</p>
+                    <a href="https://www.argentina.gob.ar/salud" target="_blank">Ver más</a>
+                </article>
+                <hr>
+                <article class="titular">
+                    <h2><strong>Educación</strong></h2>
+                    <p><u>Nuevo plan de conectividad</u></p>
+                    <p>Se anunció un plan nacional para conectar con internet a <em>todas las escuelas rurales</em> antes de fin de año. La iniciativa fue apoyada por el oficialismo y bloques provinciales.</p>
+                    <a href="https://www.argentina.gob.ar/capital-humano/educacion" target="_blank">Ver más</a>
+                </article>
+            </div>
+
+            <ul class="lista">
+                <li><strong>✔</strong> Participación de todos los bloques parlamentarios</li>
+                <li><strong>✔</strong> Nuevas iniciativas sobre medio ambiente</li>
+                <li><strong>✔</strong> Proyectos con perspectiva de género</li>
+            </ul>
+
+            <table>
+                <tr>
+                    <th><img src="imgs/diputados-discutiendok.jpg" alt="Debate parlamentario" width="100%"></th>
+                    <th class="azulfondo">
+                        <h3><strong>Actividad Parlamentaria</strong></h3>
+                        <p>Durante la última semana se debatieron más de <u>30 proyectos de ley</u>, incluyendo temas de género, economía y justicia. <em>Se espera que la agenda se intensifique hacia junio</em> por el cierre del primer semestre legislativo.</p>
+                    </th>
+                </tr>
+            </table>
+
+            <footer>
+                <span><strong>Boletín N°45</strong></span>
+                <span>Página 1</span>
+            </footer>
+        </article>
+    </section>
+    <section id="formulario">
+        <h1 id="titulo">HOLA</h1>
+        <form id="formulario">
+        <div class="form-grid">
+            <div class="field-group">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre">
+            <div class="error" id="error-nombre"></div>
+            </div>
+            <div class="field-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <div class="error" id="error-email"></div>
+            </div>
+            <div class="field-group">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password">
+            <div class="error" id="error-password"></div>
+            </div>
+            <div class="field-group">
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad">
+            <div class="error" id="error-edad"></div>
+            </div>
+            <div class="field-group">
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono" name="telefono">
+            <div class="error" id="error-telefono"></div>
+            </div>
+            <div class="field-group">
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion">
+            <div class="error" id="error-direccion"></div>
+            </div>
+            <div class="field-group">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" id="ciudad" name="ciudad">
+            <div class="error" id="error-ciudad"></div>
+            </div>
+            <div class="field-group">
+            <label for="cp">Código Postal</label>
+            <input type="text" id="cp" name="cp">
+            <div class="error" id="error-cp"></div>
+            </div>
+            <div class="field-group">
+            <label for="dni">DNI</label>
+            <input type="text" id="dni" name="dni">
+            <div class="error" id="error-dni"></div>
+            </div>
+            <div class="submit-container">
+            <button type="submit">Enviar</button>
+            </div>
+        </div>
+        </form>
+
+    </section>
+</body>
+<script src="js/main.js"></script>
+</html>
